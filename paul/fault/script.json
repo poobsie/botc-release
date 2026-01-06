@@ -2,7 +2,7 @@
   {
     "id": "_meta",
     "author": "Paul",
-    "name": "The Enigma of Ravenswood Fault",
+    "name": "Ravenswood Fault",
     "_logo": "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/fault/logo.png",
     "_background": "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/fault/background.png"
   },
@@ -11,14 +11,14 @@
     "name": "Fault",
     "team": "loric",
     "image": "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/fault/icon_fault.png",
-    "ability": "Each night, mark a player. The next night, that player dies. The night after that, that player is revived as a Minion.",
+    "ability": "Each night, mark a player. The next night, that player dies. The night after that, that player is revived as an Abomination.",
     "firstNightReminder": "",
     "otherNight": 60,
     "otherNightReminder": "Point to a player and mark them with 'Marked'. If a player has 'Dies Tonight', they die. Remove the 'Dies Tonight' reminder and add the 'Revives as Minion' reminder. If a player has 'Revives as Minion', revive them and show them a Minion token, then mark them as a Minion in the Grimoire.",
     "reminders": [
       "Marked",
       "Dies Tonight",
-      "Revives as Minion"
+      "Revives as Abomination"
     ],
     "flavor": "This is my hole. It was made for me."
   },
@@ -27,8 +27,8 @@
     "name": "Abomination",
     "team": "minion",
     "image": [
-      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/fault/abomination_good.png",
-      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/fault/abomination_evil.png"
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/fault/abomination_evil.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/fault/abomination_good.png"
     ],
     "ability": "When you die, the Fault marks an additional player tonight.",
     "firstNightReminder": "",
