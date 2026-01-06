@@ -5,6 +5,7 @@
     "name": "Lunar Calendar",
     "logo": "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/lunarcalendar/logo.png",
     "background": "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/lunarcalendar/background.png",
+    "hideTitle": true,
     "bootlegger": [
       "Either the Lunatic or the Lycanthrope is in play. They are Stormcaught.",
       "If a Lunatic is in play, the Demon (or Summoner) chooses what the Lunatic learns about Stormcaught characters, and the evil team learns this.",
