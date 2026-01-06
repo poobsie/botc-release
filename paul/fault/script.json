@@ -22,6 +22,22 @@
     ],
     "flavor": "This is my hole. It was made for me."
   },
+  {
+    "id": "abomination",
+    "name": "Abomination",
+    "team": "minion",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/fault/abomination_good.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/fault/abomination_evil.png"
+    ],
+    "ability": "When you die, the Fault marks an additional player tonight.",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "reminders": [
+      "Extra Mark"
+    ],
+    "flavor": "Drr... drr... drr..."
+  },
   "chef",
   "empath",
   "fortuneteller",
