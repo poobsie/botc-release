@@ -43,6 +43,22 @@
     ],
     "flavor": "Knock knock."
   },
+  {
+    "id": "fault",
+    "name": "Fault",
+    "team": "loric",
+    "image": "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/customscript/icon_fault.png",
+    "ability": "Each night, mark a player. The next night, that player dies. The night after that, that player is revived as a Minion.",
+    "firstNightReminder": "",
+    "otherNight": 60,
+    "otherNightReminder": "Point to a player and mark them with 'Marked'. If a player has 'Dies Tonight', they die. Remove the 'Dies Tonight' reminder and add the 'Revives as Minion' reminder. If a player has 'Revives as Minion', revive them and show them a Minion token, then mark them as a Minion in the Grimoire.",
+    "reminders": [
+      "Marked",
+      "Dies Tonight",
+      "Revives as Minion"
+    ],
+    "flavor": "This is my hole. It was made for me."
+  },
   "chef",
   "empath",
   "fortuneteller",
