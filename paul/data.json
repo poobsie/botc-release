@@ -1,0 +1,11 @@
+{
+  "scripts": [
+    {
+      "id": "lunarcalendar",
+      "name": "Lunar Calendar",
+      "author": "Texas",
+      "description": "It's the witching hour, when demons reign. But... what's this? Someone else is calling the shots now, you're on the Lunar Calendar.",
+      "rule": "Either the Lunatic or the Lycanthrope is in play. They are Stormcaught. If a Lunatic is in play, the Demon (or Summoner) chooses what the Lunatic learns about Stormcaught characters, and the evil team learns this. The Faux Paw is universal."
+    }
+  ]
+}
