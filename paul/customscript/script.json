@@ -1,0 +1,67 @@
+[
+  {
+    "id": "_meta",
+    "author": "Paul",
+    "name": "Custom Script",
+    "logo": "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/customscript/logo.png",
+    "background": "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/customscript/background.png"
+  },
+  {
+    "id": "monster",
+    "name": "Monster",
+    "team": "townsfolk",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/customscript/monster_good.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/customscript/monster_evil.png"
+    ],
+    "ability": "You have a Minion ability and an Outsider ability.",
+    "firstNight": 1,
+    "firstNightReminder": "Show the Monster the 'You are' card, then a Minion token and an Outsider token. Mark the Monster with the 'Minion Ability' and 'Outsider Ability' reminders to track which abilities they have.",
+    "otherNightReminder": "",
+    "reminders": [
+      "Minion Ability",
+      "Outsider Ability"
+    ],
+    "flavor": "It's alive!"
+  },
+  {
+    "id": "door",
+    "name": "Door",
+    "team": "townsfolk",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/customscript/door_good.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/customscript/door_evil.png"
+    ],
+    "ability": "Each night, one player may visit you & ask a yes/no question. If you are good, you answer honestly. If you are evil, you lie. When one Door dies, all Doors die. [+1 Evil Door]",
+    "setup": true,
+    "firstNightReminder": "",
+    "otherNight": 50,
+    "otherNightReminder": "Wake one player (if any choose to visit). Point to the Door. That player asks their yes/no question. The Door signals their answer (thumbs up for yes, thumbs down for no). Put both players to sleep. If a Door died tonight, kill all other Doors.",
+    "reminders": [
+      "Visited Tonight",
+      "Dead"
+    ],
+    "flavor": "Knock knock."
+  },
+  "chef",
+  "empath",
+  "fortuneteller",
+  "investigator",
+  "librarian",
+  "mayor",
+  "monk",
+  "ravenkeeper",
+  "slayer",
+  "undertaker",
+  "virgin",
+  "washerwoman",
+  "butler",
+  "drunk",
+  "recluse",
+  "saint",
+  "baron",
+  "poisoner",
+  "scarletwoman",
+  "spy",
+  "imp"
+]
