@@ -59,8 +59,8 @@
     "name": "Tattered",
     "team": "demon",
     "image": [
-      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/a_play_in_three_acts/tattered_good.png",
-      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/a_play_in_three_acts/tattered_evil.png"
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/a_play_in_three_acts/tattered_evil.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/a_play_in_three_acts/tattered_good.png"
     ],
     "ability": "Each night, choose a player: they die. Every night, the first living player that publicly claimed a character that day becomes mad that they are that character, or might be executed.",
     "firstNightReminder": "",
