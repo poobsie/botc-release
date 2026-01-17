@@ -8,6 +8,10 @@
     "id": "poet",
     "name": "Poet",
     "team": "townsfolk",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/a_play_in_three_acts/poet_good.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/a_play_in_three_acts/poet_evil.png"
+    ],
     "ability": "Once per game, at night*, choose a character. Add, remove, or change one word in that character's ability to create a new grammatically correct ability. They are informed of the change. The Storyteller may prompt you to choose differently.",
     "firstNightReminder": "",
     "otherNight": 1,
