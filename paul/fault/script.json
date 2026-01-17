@@ -11,7 +11,7 @@
     "name": "Fault",
     "team": "loric",
     "image": "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/fault/icon_fault.png",
-    "ability": "Each night, mark a player. The next night, that player dies. The night after that, that player is revived as an Abomination.",
+    "ability": "Each night, mark a player. The next night, that player dies. The night after that, that player is revived as an evil Abomination.",
     "firstNightReminder": "",
     "otherNight": 60,
     "otherNightReminder": "Point to a player and mark them with 'Marked'. If a player has 'Dies Tonight', they die. Remove the 'Dies Tonight' reminder and add the 'Revives as Abomination' reminder. If a player has 'Revives as Abomination', revive them and show them an Abomination token, then mark them as an Abomination in the Grimoire.",

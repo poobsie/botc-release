@@ -1,0 +1,68 @@
+[
+  {
+    "id": "_meta",
+    "author": "Paul",
+    "name": "A Play in Three Acts"
+  },
+  {
+    "id": "poet",
+    "name": "Poet",
+    "team": "townsfolk",
+    "ability": "Once per game, at night*, choose a character. Add, remove, or change one word in that character's ability to create a new grammatically correct ability. They are informed of the change. The Storyteller may prompt you to choose differently.",
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "If the Poet has not yet used their ability, they may wake. The Poet points to a character token. Modify one word of that character's ability (add, remove, or change). Show the affected player the 'You are' card and their character token, then show them the modified ability written down. If the change is problematic, you may wake the Poet again to choose differently.",
+    "reminders": [
+      "Used",
+      "Modified"
+    ]
+  },
+  {
+    "id": "monster",
+    "name": "Monster",
+    "team": "townsfolk",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/a_play_in_three_acts/monster_good.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/a_play_in_three_acts/monster_evil.png"
+    ],
+    "ability": "You have a Minion ability and an Outsider ability.",
+    "firstNight": 1,
+    "firstNightReminder": "Show the Monster the 'You are' card, then a Minion token and an Outsider token. Mark the Monster with the 'Minion Ability' and 'Outsider Ability' reminders to track which abilities they have.",
+    "otherNightReminder": "",
+    "reminders": [
+      "Minion Ability",
+      "Outsider Ability"
+    ],
+    "flavor": "It's alive!"
+  },
+  {
+    "id": "veteran",
+    "name": "Veteran",
+    "team": "outsider",
+    "ability": "You start knowing a player. You are mad that they are evil, or you might be executed. If you are executed, if they are evil, you become evil.",
+    "firstNight": 40,
+    "firstNightReminder": "Point to a player. The Veteran must be mad that this player is evil, or risk execution.",
+    "otherNightReminder": "",
+    "reminders": [
+      "Known Player",
+      "Mad",
+      "Turned Evil"
+    ]
+  },
+  "cerenovus",
+  {
+    "id": "tattered",
+    "name": "Tattered",
+    "team": "demon",
+    "ability": "Each night, choose a player: they die. Every night, the first living player that publicly claimed a character that day becomes mad that they are that character, or might be executed.",
+    "firstNightReminder": "",
+    "otherNight": 30,
+    "otherNightReminder": "The Tattered points to a player. That player dies. Mark the first living player who publicly claimed a character today with the 'Mad' reminder. They must be mad that they are that character, or risk execution.",
+    "reminders": [
+      "Dead",
+      "Mad",
+      "Claimed Character"
+    ],
+    "flavor": "I wear no mask."
+  }
+]

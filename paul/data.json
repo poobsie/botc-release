@@ -1,6 +1,12 @@
 {
   "scripts": [
     {
+      "id": "a_play_in_three_acts",
+      "name": "A Play in Three Acts",
+      "author": "Paul",
+      "description": "A theatrical script featuring the Poet, Veteran, and Tattered."
+    },
+    {
       "id": "lunarcalendar",
       "name": "Lunar Calendar",
       "author": "Texas",
