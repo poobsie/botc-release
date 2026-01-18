@@ -100,7 +100,7 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/a_play_in_three_acts/spite_evil.png"
     ],
     "team": "outsider",
-    "ability": "You start knowing a player. You are mad they are evil or one or both of you might die. If you die by execution, you become their alignment.",
+    "ability": "You start knowing a player. You are mad that they are evil, or one or both of you might die. If you die by execution, you become their alignment.",
     "flavor": "You think this is bad? This - this chicanery? He's done worse. That clocktower! Are you telling me that a man just happens to fall like that? No! He orchestrated it!",
     "firstNight": 40,
     "otherNight": 0,
