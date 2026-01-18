@@ -84,8 +84,8 @@
     "id": "spite",
     "name": "Spite",
     "image": [
-      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/a_play_in_three_acts/spite_evil.png",
-      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/a_play_in_three_acts/spite_good.png"
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/a_play_in_three_acts/spite_good.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/a_play_in_three_acts/spite_evil.png"
     ],
     "team": "outsider",
     "ability": "You start knowing a player. You are mad that they are evil, or you might be executed. If you are executed, if they are evil, you become evil.",
