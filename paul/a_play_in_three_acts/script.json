@@ -73,7 +73,7 @@
     "jinxes": [
       {
         "id": "lunatic",
-        "reason": "The Monster does not start knowing their abilities if they have the Lunatic ability."
+        "reason": "A Monster-Lunatic does not start knowing their abilities, and the Demon does not learn the Monster-Lunatic."
       },
       {
         "id": "marionette",
