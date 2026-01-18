@@ -124,7 +124,7 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/a_play_in_three_acts/tattered_good.png"
     ],
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. The first living player that publicly claimed a character that day is mad that they are that character tomorrow, or might be executed.",
+    "ability": "Each night*, choose a player: they die. The first player publicly mad as a character each day is mad as that character tomorrow or might be executed.",
     "flavor": "I wear no mask.",
     "firstNight": 0,
     "otherNight": 30,
