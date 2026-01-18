@@ -4,6 +4,7 @@
     "author": "Paul",
     "name": "A Play in Three Acts",
     "logo": "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/a_play_in_three_acts/icon.png",
+    "hideTitle": true,
 
     "firstNight": [
       "dusk",
