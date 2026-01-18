@@ -39,13 +39,17 @@
     ],
     "flavor": "It's alive!"
   },
+  "juggler",
+  "artist",
+  "slayer",
+  "pacifist",
   {
-    "id": "veteran",
-    "name": "Veteran",
+    "id": "dishonored",
+    "name": "Dishonored",
     "team": "outsider",
     "ability": "You start knowing a player. You are mad that they are evil, or you might be executed. If you are executed, if they are evil, you become evil.",
     "firstNight": 40,
-    "firstNightReminder": "Point to a player. The Veteran must be mad that this player is evil, or risk execution.",
+    "firstNightReminder": "Point to a player. The Dishonored must be mad that this player is evil, or risk execution.",
     "otherNightReminder": "",
     "reminders": [
       "Known Player",
@@ -53,6 +57,9 @@
       "Turned Evil"
     ]
   },
+  "lunatic",
+  "goblin",
+  "marionette",
   "cerenovus",
   {
     "id": "tattered",
