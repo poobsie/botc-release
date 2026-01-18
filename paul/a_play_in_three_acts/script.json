@@ -3,6 +3,7 @@
     "id": "_meta",
     "author": "Paul",
     "name": "A Play in Three Acts",
+    "logo": "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/a_play_in_three_acts/icon.png",
 
     "firstNight": [
       "dusk",
@@ -66,10 +67,7 @@
     "firstNight": 1,
     "otherNight": 0,
     "firstNightReminder": "Show the Monster the 'You are' card, then a Minion token and an Outsider token. Mark the Monster with the 'Minion Ability' and 'Outsider Ability' reminders to track which abilities they have.",
-    "reminders": [
-      "Minion Ability",
-      "Outsider Ability"
-    ],
+    "reminders": [],
     "jinxes": [
       {
         "id": "lunatic",
@@ -106,9 +104,7 @@
     "otherNight": 0,
     "firstNightReminder": "Point to a player. The Spite must be mad that this player is evil, or risk execution.",
     "reminders": [
-      "Known Player",
-      "Mad",
-      "Turned Evil"
+      "Known Player"
     ]
   },
   "lunatic",
@@ -133,8 +129,8 @@
     "otherNightReminder": "The Tattered points to a player. That player dies. Mark the first living player who publicly claimed a character today with the 'Mad' reminder. They must be mad that they are that character, or risk execution.",
     "reminders": [
       "Dead",
-      "Mad",
-      "Claimed Character"
+      "Claimed Character",
+      "Mad"
     ],
     "jinxes": [
       {
