@@ -44,7 +44,7 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/a_play_in_three_acts/poet_evil.png"
     ],
     "team": "townsfolk",
-    "ability": "Once per game, at night*, choose a character. Add, remove, or change one word in that character's ability. They are informed of the change. The Storyteller may prompt you to choose differently.",
+    "ability": "You start knowing an in-play role and a variant of its ability. Once per game, you may change all instances of that role's ability to the variant. All affected players learn their new ability when this happens.",
     "firstNight": 0,
     "otherNight": 1,
     "otherNightReminder": "If the Poet has not yet used their ability, they may wake. The Poet points to a character token. Modify one word of that character's ability (add, remove, or change). Show the affected player the 'You are' card and their character token, then show them the modified ability written down. If the change is problematic, you may wake the Poet again to choose differently.",
@@ -100,7 +100,7 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/a_play_in_three_acts/spite_evil.png"
     ],
     "team": "outsider",
-    "ability": "You start knowing a player. You are mad that they are evil, or you might be executed. If you are executed, if they are evil, you become evil.",
+    "ability": "You start knowing a player. You are mad they are evil or one or both of you might die. If you die by execution, you become their alignment.",
     "firstNight": 40,
     "otherNight": 0,
     "firstNightReminder": "Point to a player. The Spite must be mad that this player is evil, or risk execution.",
