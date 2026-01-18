@@ -68,7 +68,7 @@
     "flavor": "It's alive!",
     "firstNight": 1,
     "otherNight": 0,
-    "firstNightReminder": "Show the Monster the 'You are' card, then a Minion token and an Outsider token. Mark the Monster with the 'Minion Ability' and 'Outsider Ability' reminders to track which abilities they have.",
+    "firstNightReminder": "Show the Monster the 'You are' card, then a Minion token and an Outsider token.",
     "reminders": [],
     "jinxes": [
       {
@@ -104,7 +104,7 @@
     "flavor": "You think this is bad? This - this chicanery? He's done worse. That clocktower! Are you telling me that a man just happens to fall like that? No! He orchestrated it!",
     "firstNight": 40,
     "otherNight": 0,
-    "firstNightReminder": "Point to a player. The Spite must be mad that this player is evil, or risk execution.",
+    "firstNightReminder": "Point to a player. Mark them with the 'Known Player' reminder.",
     "reminders": [
       "Known Player"
     ]
@@ -128,7 +128,7 @@
     "flavor": "I wear no mask.",
     "firstNight": 0,
     "otherNight": 30,
-    "otherNightReminder": "The Tattered points to a player. That player dies. Mark the first living player who publicly claimed a character today with the 'Mad' reminder. They must be mad that they are that character, or risk execution.",
+    "otherNightReminder": "The Tattered points to a player. Mark them with the 'Dead' reminder. Mark the first living player who publicly claimed a character today with the 'Claimed Character' reminder, then the 'Mad' reminder.",
     "reminders": [
       "Dead",
       "Claimed Character",
