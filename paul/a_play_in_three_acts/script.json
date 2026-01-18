@@ -3,6 +3,7 @@
     "id": "_meta",
     "author": "Paul",
     "name": "A Play in Three Acts",
+
     "firstNight": [
       "dusk",
       "monster",
@@ -60,7 +61,7 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/a_play_in_three_acts/monster_evil.png"
     ],
     "team": "townsfolk",
-    "ability": "You have a Minion ability and an Outsider ability.",
+    "ability": "You have a Minion ability and an Outsider ability, and you start knowing these.",
     "flavor": "It's alive!",
     "firstNight": 1,
     "otherNight": 0,
@@ -68,6 +69,16 @@
     "reminders": [
       "Minion Ability",
       "Outsider Ability"
+    ],
+    "jinxes": [
+      {
+        "id": "lunatic",
+        "reason": "The Monster does not start knowing their abilities if they have the Lunatic ability."
+      },
+      {
+        "id": "marionette",
+        "reason": "A Monster-Marionette has no Marionette ability & the Marionette is in play."
+      }
     ]
   },
   "juggler",
@@ -114,7 +125,7 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/a_play_in_three_acts/tattered_good.png"
     ],
     "team": "demon",
-    "ability": "Each night, choose a player: they die. Every night, the first living player that publicly claimed a character that day becomes mad that they are that character, or might be executed.",
+    "ability": "Each night*, choose a player: they die. The first living player that publicly claimed a character that day is mad that they are that character tomorrow, or might be executed.",
     "flavor": "I wear no mask.",
     "firstNight": 0,
     "otherNight": 30,
@@ -123,6 +134,12 @@
       "Dead",
       "Mad",
       "Claimed Character"
+    ],
+    "jinxes": [
+      {
+        "id": "cerenovus",
+        "reason": "Cerenovus madness and Tattered madness are indistinguishable."
+      }
     ]
   },
   "bootlegger"
