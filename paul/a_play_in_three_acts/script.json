@@ -51,7 +51,7 @@
     "firstNight": 50,
     "firstNightReminder": "Show the Poet a character token that is in play. Show them a written variant of that character's ability. They may use their ability.",
     "otherNight": 1,
-    "otherNightReminder": "If the Poet has not yet used their ability, wake them. They may nod to use their ability. If they do, show all affected players the 'You are' card, their character token, and the modified ability written down.",
+    "otherNightReminder": "If the Poet has not yet used their ability, wake them. They may nod to use their ability. If they do, show all affected players the *YOU ARE* card, their character token, and the modified ability written down.",
     "reminders": [
       "Used",
       "Modified"
@@ -69,7 +69,7 @@
     "flavor": "It's alive!",
     "firstNight": 1,
     "otherNight": 0,
-    "firstNightReminder": "Show the Monster the 'You are' card, then a Minion token and an Outsider token.",
+    "firstNightReminder": "Show the Monster the *YOU ARE* card, then a Minion token and an Outsider token.",
     "reminders": [],
     "jinxes": [
       {
@@ -105,9 +105,9 @@
     "flavor": "You think this is bad? This - this chicanery? He's done worse. That clocktower! Are you telling me that a man just happens to fall like that? No! He orchestrated it!",
     "firstNight": 40,
     "otherNight": 0,
-    "firstNightReminder": "Point to a player. Mark them with the 'Known Player' reminder.",
+    "firstNightReminder": "Point to a player. Mark them with the MAD reminder token.",
     "reminders": [
-      "Known Player"
+      "Mad"
     ]
   },
   "lunatic",
@@ -129,7 +129,7 @@
     "flavor": "I wear no mask.",
     "firstNight": 0,
     "otherNight": 30,
-    "otherNightReminder": "The Tattered points to a player. Mark them with the 'Dead' reminder. Mark the first living player who publicly claimed a character today with the 'Claimed Character' reminder, then the 'Mad' reminder.",
+    "otherNightReminder": "The Tattered points to a player. Mark them with the DEAD reminder. Mark the first living player who publicly claimed a character today with the CLAIMED CHARACTER reminder, then the MAD reminder.",
     "reminders": [
       "Dead",
       "Claimed Character",
