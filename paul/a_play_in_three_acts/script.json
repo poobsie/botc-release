@@ -74,7 +74,7 @@
     "jinxes": [
       {
         "id": "lunatic",
-        "reason": "A Monster-Lunatic does not start knowing their abilities, and the Demon does not learn the Monster-Lunatic."
+        "reason": "A Monster-Lunatic does not start knowing their abilities."
       },
       {
         "id": "marionette",
@@ -125,11 +125,11 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/a_play_in_three_acts/tattered_good.png"
     ],
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. The first player publicly mad as a character each day is mad as that character tomorrow or might be executed.",
+    "ability": "Each night*, choose a player: they die. The first player publicly mad as a good character each day is mad as that character tomorrow, or might be executed.",
     "flavor": "I wear no mask.",
     "firstNight": 0,
     "otherNight": 30,
-    "otherNightReminder": "The Tattered points to a player. Mark them with the DEAD reminder. Mark the first living player who publicly claimed a character today with the CLAIMED CHARACTER reminder, then the MAD reminder.",
+    "otherNightReminder": "The Tattered points to a player. Mark them with the DEAD reminder. Mark the player with the CLAIMED CHARACTER reminder with the MAD reminder.",
     "reminders": [
       "Dead",
       "Claimed Character",
