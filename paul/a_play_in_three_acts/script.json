@@ -51,7 +51,7 @@
     "firstNight": 50,
     "firstNightReminder": "Show the Poet a character token that is in play. Show them a written variant of that character's ability. They may use their ability.",
     "otherNight": 1,
-    "otherNightReminder": "If the Poet has not yet used their ability, wake them. The Poet points to a character token. Modify one word of that character's ability (add, remove, or change). Show the affected player the 'You are' card and their character token, then show them the modified ability written down. If the change is problematic, you may wake the Poet again to choose differently.",
+    "otherNightReminder": "If the Poet has not yet used their ability, wake them. They may nod to use their ability. If they do, show all affected players the 'You are' card, their character token, and the modified ability written down.",
     "reminders": [
       "Used",
       "Modified"
