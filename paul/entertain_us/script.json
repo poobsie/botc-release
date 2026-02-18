@@ -1,0 +1,218 @@
+[
+  {
+    "id": "_meta",
+    "author": "Paul",
+    "name": "Entertain Us"
+  },
+  {
+    "id": "landlord",
+    "name": "Landlord",
+    "team": "townsfolk",
+    "image": [
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/landlord_good.png",
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/landlord_evil.png"
+    ],
+    "ability": "You start knowing the in-play character nearest the top of the script (besides the Landlord).",
+    "flavor": "You'll be staying here. I know it's not ideal. Put in a request with maintenance. They should be able to fix it in a few months."
+  },
+  {
+    "id": "guide",
+    "name": "Guide",
+    "team": "townsfolk",
+    "image": [
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/guide_good.png",
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/guide_evil.png"
+    ],
+    "ability": "You start knowing one out-of-play Minion and one out-of-play Outsider, if possible.",
+    "flavor": "I know a shortcut."
+  },
+  {
+    "id": "investor",
+    "name": "Investor",
+    "team": "townsfolk",
+    "image": [
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/investor_good.png",
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/investor_evil.png"
+    ],
+    "ability": "You start knowing three characters, two of which are Demon bluffs.",
+    "flavor": "Short it."
+  },
+  {
+    "id": "baker",
+    "name": "Baker",
+    "team": "townsfolk",
+    "image": [
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/baker_good.png",
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/baker_evil.png"
+    ],
+    "ability": "Once per game, choose a player: They become sober and healthy, and cannot become drunk or poisoned.",
+    "flavor": "You get what you pay for. And a little more than that."
+  },
+  {
+    "id": "quartermaster",
+    "name": "Quartermaster",
+    "team": "townsfolk",
+    "image": [
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/quartermaster_good.png",
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/quartermaster_evil.png"
+    ],
+    "ability": "Once per game, choose a player: they act twice tonight.",
+    "flavor": "New order's in. Get to work. No breaks."
+  },
+  {
+    "id": "mailman",
+    "name": "Mailman",
+    "team": "townsfolk",
+    "image": [
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/mailman_good.png",
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/mailman_evil.png"
+    ],
+    "ability": "Each night*, choose three players. You learn if any are evil.",
+    "flavor": "Mail call!"
+  },
+  {
+    "id": "coroner",
+    "name": "Coroner",
+    "team": "townsfolk",
+    "image": [
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/coroner_good.png",
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/coroner_evil.png"
+    ],
+    "ability": "Each night*, choose a dead player. You learn how they died.",
+    "flavor": "Get me the vitreous sample. I have a theory."
+  },
+  {
+    "id": "martyr",
+    "name": "Martyr",
+    "team": "townsfolk",
+    "image": [
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/martyr_good.png",
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/martyr_evil.png"
+    ],
+    "ability": "If you were executed today, two players learn your role tonight.",
+    "flavor": "Though I walk through the valley of the shadow of death, I will fear no evil."
+  },
+  {
+    "id": "anomalist",
+    "name": "Anomalist",
+    "team": "townsfolk",
+    "image": [
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/anomalist_good.png",
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/anomalist_evil.png"
+    ],
+    "ability": "Once per game, you may publicly guess a player as an Outsider. If correct, they become an out-of-play Townsfolk.",
+    "flavor": "Its mere existence stuns the brain and numbs us with the black extra-cosmic gulfs it throws open before our frenzied eyes. And I intend to study it."
+  },
+  {
+    "id": "doctor",
+    "name": "Doctor",
+    "team": "townsfolk",
+    "image": [
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/doctor_good.png",
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/doctor_evil.png"
+    ],
+    "ability": "You learn when players would die. Once per game, you may prevent a death.",
+    "flavor": "Time of death, twelve o' clock a.m. on the dot."
+  },
+  {
+    "id": "captain",
+    "name": "Captain",
+    "team": "townsfolk",
+    "image": [
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/captain_good.png",
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/captain_evil.png"
+    ],
+    "ability": "The first time you would die, choose another player: they die instead.",
+    "flavor": "Gooooooood morning, crew."
+  },
+  {
+    "id": "clown",
+    "name": "Clown",
+    "team": "outsider",
+    "image": [
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/clown_good.png",
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/clown_evil.png"
+    ],
+    "ability": "You must nominate a living player each day. Townsfolk you nominate are poisoned until dawn. Evil players you nominate act twice tonight.",
+    "flavor": "*honk*"
+  },
+  {
+    "id": "mime",
+    "name": "Mime",
+    "team": "outsider",
+    "image": [
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/mime_good.png",
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/mime_evil.png"
+    ],
+    "ability": "If you are targeted by a Townsfolk ability, you die immediately.",
+    "flavor": "..."
+  },
+  {
+    "id": "beast",
+    "name": "Beast",
+    "team": "outsider",
+    "image": [
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/beast_good.png",
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/beast_evil.png"
+    ],
+    "ability": "Good cannot win if the first player to nominate you is alive, even if you are dead.",
+    "flavor": "Get out!"
+  },
+  {
+    "id": "enchanter",
+    "name": "Enchanter",
+    "team": "minion",
+    "image": [
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/enchanter_good.png",
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/enchanter_evil.png"
+    ],
+    "ability": "Each night*, choose a player: if they used their ability tonight, you choose the ability's targets. If not, you learn their role.",
+    "flavor": "It has been a long day. Sleep. Let me handle this for you."
+  },
+  {
+    "id": "fatale",
+    "name": "Fatale",
+    "team": "minion",
+    "image": [
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/fatale_good.png",
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/fatale_evil.png"
+    ],
+    "ability": "The first Townsfolk who chooses you with their ability each night dies.",
+    "flavor": "Perhaps we can discuss this somewhere... privately?"
+  },
+  {
+    "id": "flagellant",
+    "name": "Flagellant",
+    "team": "minion",
+    "image": [
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/flagellant_good.png",
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/flagellant_evil.png"
+    ],
+    "ability": "Once per game, at night*, choose a player: they die. You become an evil Outsider. [-1 Outsider]",
+    "flavor": "AAAAAAAAAGGGGGHHHH!!",
+    "setup": true
+  },
+  {
+    "id": "showman",
+    "name": "Showman",
+    "team": "minion",
+    "image": [
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/showman_good.png",
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/showman_evil.png"
+    ],
+    "ability": "Evil wins if all Outsiders are dead. [+1 Outsider]",
+    "flavor": "Prepare to be amazed!",
+    "setup": true
+  },
+  {
+    "id": "owlglass",
+    "name": "Owlglass",
+    "team": "demon",
+    "image": [
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/owlglass_good.png",
+      "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/paul/entertain_us/owlglass_evil.png"
+    ],
+    "ability": "Each night*, choose a player: they die. Executed players do not die until the beginning of night.",
+    "flavor": "This day have ye brought me out to be hanged up; but see ye the halter wherewith ye would hang me is a new one."
+  }
+]
