@@ -163,8 +163,8 @@
     "name": "Enchanter",
     "team": "minion",
     "image": [
-      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/enchanter_good.png",
-      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/enchanter_evil.png"
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/enchanter_evil.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/enchanter_good.png"
     ],
     "ability": "Each night*, choose a player: if they used their ability tonight, you choose the ability's targets. If not, you learn their role.",
     "flavor": "It has been a long day. Sleep. Let me handle this for you."
@@ -174,8 +174,8 @@
     "name": "Fatale",
     "team": "minion",
     "image": [
-      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/fatale_good.png",
-      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/fatale_evil.png"
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/fatale_evil.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/fatale_good.png"
     ],
     "ability": "The first Townsfolk who chooses you with their ability each night dies.",
     "flavor": "Perhaps we can discuss this somewhere... privately?"
@@ -185,8 +185,8 @@
     "name": "Flagellant",
     "team": "minion",
     "image": [
-      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/flagellant_good.png",
-      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/flagellant_evil.png"
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/flagellant_evil.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/flagellant_good.png"
     ],
     "ability": "Once per game, at night*, choose a player: they die. You become an evil Outsider. [-1 Outsider]",
     "flavor": "AAAAAAAAAGGGGGHHHH!!",
@@ -197,8 +197,8 @@
     "name": "Showman",
     "team": "minion",
     "image": [
-      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/showman_good.png",
-      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/showman_evil.png"
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/showman_evil.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/showman_good.png"
     ],
     "ability": "Evil wins if all Outsiders are dead. [+1 Outsider]",
     "flavor": "Prepare to be amazed!",
@@ -209,8 +209,8 @@
     "name": "Owlglass",
     "team": "demon",
     "image": [
-      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/owlglass_good.png",
-      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/owlglass_evil.png"
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/owlglass_evil.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/owlglass_good.png"
     ],
     "ability": "Each night*, choose a player: they die. Executed players do not die until the beginning of night.",
     "flavor": "This day have ye brought me out to be hanged up; but see ye the halter wherewith ye would hang me is a new one."
