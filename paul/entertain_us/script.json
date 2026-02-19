@@ -13,6 +13,10 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/landlord_evil.png"
     ],
     "ability": "You start knowing the in-play character nearest the top of the script (besides the Landlord).",
+    "firstNight": 10,
+    "firstNightReminder": "Show the Landlord the in-play character token nearest the top of the script (excluding Landlord).",
+    "otherNight": 0,
+    "otherNightReminder": "",
     "flavor": "You'll be staying here. I know it's not ideal. Put in a request with maintenance. They should be able to fix it in a few months."
   },
   {
@@ -24,6 +28,10 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/guide_evil.png"
     ],
     "ability": "You start knowing one out-of-play Minion and one out-of-play Outsider, if possible.",
+    "firstNight": 15,
+    "firstNightReminder": "Show the Guide 1 out-of-play Minion token and 1 out-of-play Outsider token, if possible.",
+    "otherNight": 0,
+    "otherNightReminder": "",
     "flavor": "I know a shortcut."
   },
   {
@@ -35,6 +43,10 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/investor_evil.png"
     ],
     "ability": "You start knowing three characters, two of which are Demon bluffs.",
+    "firstNight": 20,
+    "firstNightReminder": "Show the Investor 3 character tokens, 2 of which are Demon bluffs.",
+    "otherNight": 0,
+    "otherNightReminder": "",
     "flavor": "Short it."
   },
   {
@@ -46,6 +58,10 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/baker_evil.png"
     ],
     "ability": "Once per game, choose a player: They become sober and healthy, and cannot become drunk or poisoned.",
+    "firstNight": 50,
+    "firstNightReminder": "If the Baker has not used their ability, wake them. They choose a player; mark that player as unaffected by drunkenness and poisoning.",
+    "otherNight": 50,
+    "otherNightReminder": "If the Baker has not used their ability, wake them. They choose a player; mark that player as unaffected by drunkenness and poisoning.",
     "flavor": "You get what you pay for. And a little more than that."
   },
   {
@@ -57,6 +73,10 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/quartermaster_evil.png"
     ],
     "ability": "Once per game, choose a player: they act twice tonight.",
+    "firstNight": 25,
+    "firstNightReminder": "If the Quartermaster has not used their ability, wake them. They choose a player; that player acts twice tonight.",
+    "otherNight": 25,
+    "otherNightReminder": "If the Quartermaster has not used their ability, wake them. They choose a player; that player acts twice tonight.",
     "flavor": "New order's in. Get to work. No breaks."
   },
   {
@@ -68,6 +88,10 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/mailman_evil.png"
     ],
     "ability": "Each night*, choose three players. You learn if any are evil.",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 65,
+    "otherNightReminder": "Wake the Mailman. They choose 3 players. Show YES if any are evil, otherwise NO.",
     "flavor": "Mail call!"
   },
   {
@@ -79,6 +103,10 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/coroner_evil.png"
     ],
     "ability": "Each night*, choose a dead player. You learn how they died.",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 70,
+    "otherNightReminder": "Wake the Coroner. They choose a dead player. Explain that player’s cause of death.",
     "flavor": "Get me the vitreous sample. I have a theory."
   },
   {
@@ -90,6 +118,10 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/martyr_evil.png"
     ],
     "ability": "If you were executed today, two players learn your role tonight.",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "If the Martyr was executed today, wake 2 players and show them the Martyr token.",
     "flavor": "Though I walk through the valley of the shadow of death, I will fear no evil."
   },
   {
@@ -101,6 +133,10 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/anomalist_evil.png"
     ],
     "ability": "Once per game, you may publicly guess a player as an Outsider. If correct, they become an out-of-play Townsfolk.",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
     "flavor": "Its mere existence stuns the brain and numbs us with the black extra-cosmic gulfs it throws open before our frenzied eyes. And I intend to study it."
   },
   {
@@ -112,6 +148,10 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/doctor_evil.png"
     ],
     "ability": "You learn when players would die. Once per game, you may prevent a death.",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "When a player would die, inform the Doctor. If unused, the Doctor may choose to prevent that death.",
     "flavor": "Time of death, twelve o' clock a.m. on the dot."
   },
   {
@@ -123,6 +163,10 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/captain_evil.png"
     ],
     "ability": "The first time you would die, choose another player: they die instead.",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "When the Captain would die for the first time, wake them to choose another player to die instead.",
     "flavor": "Gooooooood morning, crew."
   },
   {
@@ -134,6 +178,10 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/clown_evil.png"
     ],
     "ability": "You must nominate a living player each day. Townsfolk you nominate are poisoned until dawn. Evil players you nominate act twice tonight.",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "Clown-nominated evil players act twice tonight.",
     "flavor": "*honk*"
   },
   {
@@ -144,7 +192,11 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/mime_good.png",
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/mime_evil.png"
     ],
-    "ability": "If you are targeted by a Townsfolk ability, you die immediately.",
+    "ability": "If you are chosen by a Townsfolk, you die immediately.",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "If the Mime is chosen by a Townsfolk ability, kill the Mime immediately.",
     "flavor": "..."
   },
   {
@@ -167,6 +219,10 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/enchanter_good.png"
     ],
     "ability": "Each night*, choose a player: if they used their ability tonight, you choose the ability's targets. If not, you learn their role.",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 95,
+    "otherNightReminder": "Wake the Enchanter. They choose a player. If that player used their ability tonight, the Enchanter chooses its targets. Otherwise, show that player’s character token.",
     "flavor": "It has been a long day. Sleep. Let me handle this for you."
   },
   {
@@ -178,6 +234,10 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/fatale_good.png"
     ],
     "ability": "The first Townsfolk who chooses you with their ability each night dies.",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "Each night, the first Townsfolk who chooses the Fatale dies.",
     "flavor": "Perhaps we can discuss this somewhere... privately?"
   },
   {
@@ -189,6 +249,10 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/flagellant_good.png"
     ],
     "ability": "Once per game, at night*, choose a player: they die. You become an evil Outsider. [-1 Outsider]",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 35,
+    "otherNightReminder": "If the Flagellant has not used their ability, wake them. They may choose a player to die. Then the Flagellant becomes an evil Outsider.",
     "flavor": "AAAAAAAAAGGGGGHHHH!!",
     "setup": true
   },
@@ -200,7 +264,11 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/showman_evil.png",
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/showman_good.png"
     ],
-    "ability": "Evil wins if all Outsiders are dead. [+1 Outsider]",
+    "ability": "Evil wins if all Outsiders and the Demon are dead. [+1 Outsider]",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
     "flavor": "Prepare to be amazed!",
     "setup": true
   },
@@ -213,6 +281,10 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/owlglass_good.png"
     ],
     "ability": "Each night*, choose a player: they die. Executed players do not die until the beginning of night.",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 80,
+    "otherNightReminder": "Wake the Owlglass. They choose a player to die. At the start of each night, resolve any pending execution deaths.",
     "flavor": "This day have ye brought me out to be hanged up; but see ye the halter wherewith ye would hang me is a new one."
   }
 ]
