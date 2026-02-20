@@ -120,7 +120,7 @@
     "ability": "If you were executed today, two players learn your role tonight.",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 0,
+    "otherNight": 85,
     "otherNightReminder": "If the Martyr was executed today, wake 2 players and show them the Martyr token.",
     "flavor": "Though I walk through the valley of the shadow of death, I will fear no evil."
   },
@@ -150,7 +150,7 @@
     "ability": "You learn when players would die. Once per game, you may prevent a death.",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 0,
+    "otherNight": 75,
     "otherNightReminder": "When a player would die, inform the Doctor. If unused, the Doctor may choose to prevent that death.",
     "flavor": "Time of death, twelve o' clock a.m. on the dot."
   },
@@ -162,12 +162,27 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/captain_good.png",
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/captain_evil.png"
     ],
-    "ability": "The Demon starts knowing your role. The first time you would die, you don't, and you choose another player to die tonight.",
-    "firstNight": 0,
-    "firstNightReminder": "Show the Demon the Captain.",
+    "ability": "On your first night, choose a player: the first time you would die at night, that player dies instead.",
+    "firstNight": 30,
+    "firstNightReminder": "The Captain chooses a player.",
     "otherNight": 0,
-    "otherNightReminder": "When the Captain would die for the first time, wake them to choose another player to die instead.",
+    "otherNightReminder": "",
     "flavor": "Gooooooood morning, crew."
+  },
+  {
+    "id": "fire_eater",
+    "name": "Fire Eater",
+    "team": "townsfolk",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/fire_eater_good.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/fire_eater_evil.png"
+    ],
+    "ability": "Each day, you may publicly guess any number of players’ characters. Tonight, you learn if you were correct.",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 50,
+    "otherNightReminder": "Wake the Fire Eater. Show YES if all of their guesses were correct, otherwise NO.",
+    "flavor": "Aha! It is impossible, yes? No! Watch!"
   },
   {
     "id": "clown",
@@ -214,7 +229,7 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/sword_swallower_good.png",
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/sword_swallower_evil.png"
     ],
-    "ability": "",
+    "ability": "Each day, you may publicly swallow a sword. If you don't, a player of your alignment is poisoned until dawn. When you swallow your third sword, you die tonight.",
     "flavor": "I've done this a thousand times. What's one more?"
   },
   {
