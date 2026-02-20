@@ -59,9 +59,9 @@
     ],
     "ability": "Once per game, choose a player: They become sober and healthy, and cannot become drunk or poisoned.",
     "firstNight": 50,
-    "firstNightReminder": "If the Baker has not used their ability, wake them. They choose a player; mark that player as unaffected by drunkenness and poisoning.",
+    "firstNightReminder": "Ask the Baker if they want to use their ability. If they do, they choose a player; mark that player as unaffected by drunkenness and poisoning.",
     "otherNight": 50,
-    "otherNightReminder": "If the Baker has not used their ability, wake them. They choose a player; mark that player as unaffected by drunkenness and poisoning.",
+    "otherNightReminder": "If the Baker has not used their ability, wake them. If they choose to use their ability, they choose a player; mark that player as unaffected by drunkenness and poisoning.",
     "flavor": "You get what you pay for. And a little more than that."
   },
   {
@@ -74,9 +74,9 @@
     ],
     "ability": "Once per game, choose a player: they act twice tonight.",
     "firstNight": 25,
-    "firstNightReminder": "If the Quartermaster has not used their ability, wake them. They choose a player; that player acts twice tonight.",
+    "firstNightReminder": "If the Quartermaster has not used their ability, wake them. If they choose to use their ability, they choose a player; that player acts twice tonight.",
     "otherNight": 25,
-    "otherNightReminder": "If the Quartermaster has not used their ability, wake them. They choose a player; that player acts twice tonight.",
+    "otherNightReminder": "If the Quartermaster has not used their ability, wake them. If they choose to use their ability, they choose a player; that player acts twice tonight.",
     "flavor": "New order's in. Get to work. No breaks."
   },
   {
@@ -162,9 +162,9 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/captain_good.png",
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/captain_evil.png"
     ],
-    "ability": "The first time you would die, choose another player: they die instead.",
+    "ability": "The Demon starts knowing your role. The first time you would die, you don't, and you choose another player to die tonight.",
     "firstNight": 0,
-    "firstNightReminder": "",
+    "firstNightReminder": "Show the Demon the Captain.",
     "otherNight": 0,
     "otherNightReminder": "When the Captain would die for the first time, wake them to choose another player to die instead.",
     "flavor": "Gooooooood morning, crew."
@@ -177,12 +177,8 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/clown_good.png",
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/clown_evil.png"
     ],
-    "ability": "You must nominate a living player each day. Townsfolk you nominate are poisoned until dawn. Evil players you nominate act twice tonight.",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "Clown-nominated evil players act twice tonight.",
-    "flavor": "*honk*"
+    "ability": "You must nominate a living player each day. Townsfolk you nominate are poisoned until dawn. Opposing players you nominate act twice tonight.",
+    "flavor": "honk"
   },
   {
     "id": "mime",
@@ -209,6 +205,17 @@
     ],
     "ability": "Good cannot win if the first player to nominate you is alive, even if you are dead.",
     "flavor": "Get out!"
+  },
+  {
+    "id": "sword_swallower",
+    "name": "Sword Swallower",
+    "team": "outsider",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/sword_swallower_good.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/sword_swallower_evil.png"
+    ],
+    "ability": "",
+    "flavor": "I've done this a thousand times. What's one more?"
   },
   {
     "id": "enchanter",
