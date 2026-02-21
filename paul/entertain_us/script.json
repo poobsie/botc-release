@@ -162,11 +162,9 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/captain_good.png",
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/captain_evil.png"
     ],
-    "ability": "On your first night, choose a player: the first time you would die at night, that player dies instead.",
-    "firstNight": 30,
-    "firstNightReminder": "The Captain chooses a player.",
+    "ability": "The first time you would die at night, choose a player: that player dies instead.",
     "otherNight": 0,
-    "otherNightReminder": "",
+    "otherNightReminder": "If the Captain would die at night, wake them. They choose a player to die instead. Mark the Captain with the USED token.",
     "flavor": "Gooooooood morning, crew."
   },
   {
@@ -302,7 +300,7 @@
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/owlglass_evil.png",
       "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/entertain_us/owlglass_good.png"
     ],
-    "ability": "Each night*, choose a player: they die. Executed players do not die until the beginning of night.",
+    "ability": "Each night*, choose a player: they die tomorrow at dusk as if executed.",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 80,
