@@ -1,0 +1,303 @@
+[
+  {
+    "id": "_meta",
+    "name": "Midnight in the Squ4ll of the Damned v10",
+    "author": "Squ4ll",
+    "logo": "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/logo.png",
+    "hideTitle": true,
+    "almanac": "https://www.bloodstar.xyz/p/Squ4ll/Midnight_in_the_Squ4ll_of_the_Damned/almanac.html"
+  },
+  {
+    "id": "blacksmith_midnight_in_the_squ4ll_of_the_damned",
+    "name": "Blacksmith",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/blacksmith_good.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/blacksmith_evil.png"
+    ],
+    "team": "townsfolk",
+    "ability": "You start knowing how many Outsiders are in play. All Outsiders are drunk, even if you are dead. [-? to +? Outsiders]",
+    "firstNight": 48.11,
+    "firstNightReminder": "Give a finger signal.",
+    "reminders": [
+      "Drunk",
+      "Drunk",
+      "Drunk",
+      "Drunk"
+    ],
+    "setup": true
+  },
+  "bountyhunter",
+  {
+    "id": "pirate_midnight_in_the_squ4ll_of_the_damned",
+    "name": "Pirate",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/pirate_good.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/pirate_evil.png"
+    ],
+    "team": "townsfolk",
+    "ability": "You start knowing how many Pirates are in play. If Pirates are the only good character alive, good wins. [+0 to +2 Pirates]",
+    "firstNight": 49.11,
+    "firstNightReminder": "Wake a Pirate. Give a finger signal. Put the Pirate to sleep. Repeat for all Pirates.",
+    "setup": true
+  },
+  {
+    "id": "falconer_midnight_in_the_squ4ll_of_the_damned",
+    "name": "Falconer",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/falconer_good.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/falconer_evil.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Each dusk*, you may visit the Storyteller to learn how many Townsfolk are alive. [+0 or +1 Outsider]",
+    "setup": true
+  },
+  "villageidiot",
+  "huntsman",
+  {
+    "id": "merchant_midnight_in_the_squ4ll_of_the_damned",
+    "name": "Merchant",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/merchant_good.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/merchant_evil.png"
+    ],
+    "team": "townsfolk",
+    "edition": "Midnight in the Squ4ll of the Damned",
+    "ability": "Once per game, you & another player may publicly make a deal: if 1 of you breaks the rule, that player's team loses.",
+    "flavor": "Would you make a deal to trade up to $500 in cash for one of these three doors, knowing behind one of them is $3,254 in cash or valuable merchandise? Several people may have to make that decision during the next few minutes as we bring you the Marketplace Of Ravenswood Bluff. LET'S MAKE A DEAL!",
+    "reminders": [
+      "Made a Deal",
+      "?",
+      "?"
+    ],
+    "setup": false
+  },
+  {
+    "id": "machinist_midnight_in_the_squ4ll_of_the_damned",
+    "name": "Machinist",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/machinist_good.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/machinist_evil.png"
+    ],
+    "team": "townsfolk",
+    "ability": "On your 1st day, visit the Storyteller to become a non-listed character, even if drunk or poisoned. [+0 to +2 Machinists]",
+    "remindersGlobal": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ]
+  },
+  {
+    "id": "mole_midnight_in_the_squ4ll_of_the_damned",
+    "name": "Mole",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/mole_good.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/mole_evil.png"
+    ],
+    "team": "townsfolk",
+    "ability": "You are a Minion too. If the Demon publicly guesses you (once), your team loses, even if dead, drunk or poisoned.",
+    "firstNight": 15.11,
+    "firstNightReminder": "Wake the Mole. Show them which Minion character they are.\nWake the Mole when giving Minion info.\nWhen giving Demon info, point to the Mole as if they are a Minion.",
+    "reminders": [
+      "Guess Used",
+      "Has Ability"
+    ],
+    "remindersGlobal": [
+      "Is the Mole"
+    ],
+    "setup": false
+  },
+  {
+    "id": "beekeeper_midnight_in_the_squ4ll_of_the_damned",
+    "name": "Beekeeper",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/beekeeper_good.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/beekeeper_evil.png"
+    ],
+    "team": "townsfolk",
+    "ability": "You choose which 3 good characters (not the Beekeeper) the Demon gets as bluffs.",
+    "firstNight": 15.111111,
+    "firstNightReminder": "Wake the Beekeeper. They point at three good characters (not the Beekeeper).\nDuring Demon info, show the Demon these three characters instead of the three bluffs.",
+    "setup": false
+  },
+  {
+    "id": "taxman_midnight_in_the_squ4ll_of_the_damned",
+    "name": "Taxman",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/taxman_good.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/taxman_evil.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Evil can't win. The 1st time evil would win, the Demon learns you are the Taxman tonight.",
+    "otherNight": 12.11,
+    "otherNightReminder": "If evil would have won for the first time, wake the Demon and point to the Taxman. :reminder:",
+    "reminders": [
+      "Taxes Due"
+    ],
+    "setup": false
+  },
+  "poppygrower",
+  {
+    "id": "shaman_midnight_in_the_squ4ll_of_the_damned",
+    "name": "Shaman",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/shaman_good.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/shaman_evil.png"
+    ],
+    "team": "townsfolk",
+    "ability": "Minions & Demons think they are different evil characters. At night, the Storyteller acts for them.",
+    "otherNight": 12.1111,
+    "otherNightReminder": "If the Shaman died today or tonight, wake any evil player. Show the *YOU ARE* token, then show their character token. Put the evil player to sleep. Repeat until you have woken all evil players.",
+    "reminders": [
+      "Thinks Minion #1",
+      "Thinks Minion #2",
+      "Thinks Minion #3",
+      "Thinks Minion #4",
+      "Thinks Demon #1",
+      "Thinks Demon #2",
+      "Thinks Demon #3",
+      "Thinks Demon #4",
+      "Evil Learns"
+    ],
+    "setup": true
+  },
+  {
+    "id": "troll_msd",
+    "name": "Troll",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/troll_good.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/troll_evil.png"
+    ],
+    "team": "outsider",
+    "edition": "Midnight in the Squ4ll of the Damned",
+    "ability": "Each night, choose your alignment. On the final night, even if you are dead, 1 player learns a Troll is in play.",
+    "firstNight": 73.11,
+    "firstNightReminder": "Wake the Troll. They give either a thumbs-up or a thumbs-down. Put the Troll to sleep.",
+    "otherNight": 92.11,
+    "otherNightReminder": "Wake the Troll. They give either a thumbs-up or a thumbs-down. Put the Troll to sleep.",
+    "reminders": [
+      "Trolled"
+    ],
+    "setup": false
+  },
+  {
+    "id": "donkeywrangler_msd",
+    "name": "Donkey Wrangler",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/donkey_wrangler_good.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/donkey_wrangler_evil.png"
+    ],
+    "team": "outsider",
+    "ability": "If you are nominated, the Demon must be executed today, or your team loses. [Your token is square]",
+    "reminders": [
+      "Nominated"
+    ],
+    "setup": true
+  },
+  "damsel",
+  "heretic",
+  "wizard",
+  {
+    "id": "copycat_msd",
+    "name": "Copycat",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/copycat_evil.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/copycat_good.png"
+    ],
+    "team": "minion",
+    "edition": "Midnight in the Squ4ll of the Damned",
+    "ability": "You are also the character of another in-play Minion. [There must be another Minion]",
+    "firstNight": 15.1111,
+    "firstNightReminder": "Wake the Copycat. Show a character token.",
+    "remindersGlobal": [
+      "Is the Copycat",
+      "Has Ability"
+    ],
+    "setup": true
+  },
+  "goblin",
+  {
+    "id": "damned_midnight_in_the_squ4ll_of_the_damned",
+    "name": "Damned",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/damned_evil.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/damned_good.png"
+    ],
+    "team": "minion",
+    "ability": "If all good players die, good wins. The Demon cannot kill the last living Damned. [+0 to +2 Damned]",
+    "remindersGlobal": [
+      "Safe"
+    ],
+    "setup": true,
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-duplicate"
+      }
+    ]
+  },
+  {
+    "id": "hwisp_midnight_in_the_squ4ll_of_the_damned",
+    "name": "Hwisp",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/hwisp_evil.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/hwisp_good.png"
+    ],
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. If a Townsfolk nominates you, you die. Each day, if 2 Townsfolk nominate, evil wins.",
+    "otherNight": 40.11,
+    "otherNightReminder": "Wake the Hwisp. They point to any player. That player dies. :reminder:",
+    "remindersGlobal": [
+      "Dead",
+      "Nominated"
+    ],
+    "setup": false
+  },
+  "legion",
+  {
+    "id": "tipitipi_midnight_in_the_squ4ll_of_the_damned",
+    "name": "Tipi-Tipi",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/tipi_tipi_evil.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/tipi_tipi_good.png"
+    ],
+    "team": "demon",
+    "ability": "Each night*, a player dies. On the final night, choose 2 players: the 1st is mad the 2nd is not the Demon, or their team loses.",
+    "flavor": "That fucking bird that I hate! That fucking bird that I hate!",
+    "otherNight": 39.11,
+    "otherNightReminder": "A player dies. :reminder:\nIf it is the final night, wake the Tipi-Tipi. They point to 2 players. :reminder: :reminder: Wake the player marked *1st* and show the *THIS CHARACTER SELECTED YOU* info card, then the Tipi-Tipi token. Point to the player marked *2nd*.",
+    "remindersGlobal": [
+      "Dead",
+      "1st",
+      "2nd"
+    ],
+    "setup": false
+  },
+  {
+    "id": "fanzazz_midnight_in_the_squ4ll_of_the_damned",
+    "name": "Fanzazz",
+    "image": [
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/fanzazz_evil.png",
+      "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/midnight_in_the_squ4ll_of_the_damned/fanzazz_good.png"
+    ],
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die & you become their alignment. If you die, your team loses. If just 2 players live, your team wins.",
+    "otherNight": 41.11,
+    "otherNightReminder": "Wake the Fanzazz. They point to any player. That player dies. :reminder:\nIf that player died and they are a different alignment than the Fanzazz, flip the Fanzazz’ reminder token. Give a thumbs-up or thumbs-down.",
+    "remindersGlobal": [
+      "Dead"
+    ],
+    "setup": false
+  },
+  "cacklejack",
+  "bootlegger"
+]
