@@ -1,0 +1,44 @@
+[
+  {
+    "id": "_meta",
+    "name": "Blob Test",
+    "author": "Paul"
+  },
+  {
+    "id": "blob",
+    "name": "Blob",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. They become an evil Blob unless they win roshambo.",
+    "image": "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/blob_test/blob.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "otherNight": 20,
+    "otherNightReminder": "Wake the Blob and have them choose a player. Put the Blob to sleep. Wake the chosen player and send Play Roshambo. Resolve the match, death, and any change into an evil Blob manually.",
+    "special": [
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Play Roshambo",
+        "time": "night"
+      },
+      {
+        "type": "signal",
+        "name": "player",
+        "value": "Rock",
+        "time": "night"
+      },
+      {
+        "type": "signal",
+        "name": "player",
+        "value": "Paper",
+        "time": "night"
+      },
+      {
+        "type": "signal",
+        "name": "player",
+        "value": "Scissors",
+        "time": "night"
+      }
+    ]
+  }
+]
