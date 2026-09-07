@@ -1,0 +1,41 @@
+[
+  {
+    "id": "_meta",
+    "name": "Trouble Brewing + Tider",
+    "author": "Paul"
+  },
+  "washerwoman",
+  "librarian",
+  "investigator",
+  "chef",
+  "empath",
+  "fortuneteller",
+  "undertaker",
+  "monk",
+  "ravenkeeper",
+  "virgin",
+  "slayer",
+  "soldier",
+  "mayor",
+  "butler",
+  "drunk",
+  "recluse",
+  "saint",
+  "poisoner",
+  "spy",
+  "scarletwoman",
+  "baron",
+  "imp",
+  {
+    "id": "tider",
+    "name": "Tider",
+    "team": "independent",
+    "ability": "If you are executed, the game ends and you win.",
+    "image": "https://raw.githubusercontent.com/poobsie/botc-release/refs/heads/main/paul/trouble_brewing_tider/tider.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [],
+    "setup": false
+  }
+]
